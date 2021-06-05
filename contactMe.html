@@ -1,0 +1,30 @@
+<!DOCTYPE html> <!--Document Type telling browser telling version. Working with latest version, HTML5-->
+<html> <!--Tells browser everything coming in is html-->
+    <head> <!--Tells browser how it should handle the page-->
+        <meta charset="utf-8">
+        <title>Ethan Dy</title>
+    </head>
+    <body>
+        <h1>Contact Me!</h1>
+        <p>Address: 301 Vinet Avenue</p>
+        <p>Cell: (504)252-5684</p>
+        <p>Email: ecdy@my.loyno.edu</p>
+
+        <!--Form!-->
+        <!--Note: Post means transfer the data!-->
+        <!--Opens Mail app, and puts values in the thing.-->
+        <form action="mailto:ecdy@my.loyno.edu" method="post" enctype="text/plain">
+            <label>Your Name:</label>
+            <input type="text" name="yourName" value="">
+            <br>
+            <label>Your Email:</label>
+            <input type="email" name="yourEmail" value="">
+            <br>
+            <label>Your Message:</label>
+            <br>
+            <textarea name="yourMessage" rows="10" cols="10"></textarea>
+            <br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
